@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Interstellar-X</title>
+<meta name="keywords" content="InterspaceITX的个人网站">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #333;
+}
+
+.h2
+{
+	background-color: #333;
+  color: #f1f1f1;
+}
+
+/* 头部标题 */
+.header {
+  padding: 165px;
+  background-image: url("h.webp");
+  background-size: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+ 
+.header h1 {
+  font-size: 50px;
+}
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(92, 92, 92);
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接颜色修改 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+/* 创建两列 */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+ 
+/* 右侧栏 */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #333;
+  padding-left: 20px;
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+ 
+/* 文章卡片效果 */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+ 
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+a{ 
+text-decoration:none;
+color:black;
+}
+.avatar-img {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 70px;
+}
+.avatar-img img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: filter 375ms ease-in 0.2s, -webkit-transform 0.3s;
+    -moz-transition: filter 375ms ease-in 0.2s, -moz-transform 0.3s;
+    -o-transition: filter 375ms ease-in 0.2s, -o-transform 0.3s;
+    -ms-transition: filter 375ms ease-in 0.2s, -ms-transform 0.3s;
+    transition: filter 375ms ease-in 0.2s, transform 0.3s;
+    object-fit: cover;
+}
+.di
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+<script>
+</script>
+</head>
+<body>
+  <script src="CL.js"></script>
+<h2 class="h2">InterspaceITX</h2>
+<div class="header">
+  
+</div>
+<center><div id="typing" style="font-size:20px;"></div></center>
+<div class="topnav">
+  <a href="homepage.html"">首页/Home Page</a>
+  <a href="project.html">当前项目/Project</a>
+  <a href="future.html">未来/Future</a>
+  <a href="plan.html">计划/Plan</a>
+  <a href="article.html">文章/Article</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+        <div><h2>IT行业未来趋势总结</h2><button style="font-size:15px"><i class="fa fa-bell" onclick="article++;alert('点赞成功');"></i></button></div>
+        <h5>2022 年 5 月 14日</h5>
+        <p>一、IT行业概况</p>
+        <p>当今世界，信息技术日新月异，正在有力地推动着社会生产力的发展。一是微电子技术的高速发展，导致芯片的运算能力及性能价格比继续按几何级数的定律增长，从而为大规模、多领域的数字化信息的加工处理、传递交流创造了条件；二是软件技术的高速发展，使芯片和计算机硬件具有了智能，从而成倍地扩大了计算机技术的功能和应用范围；三是在微电子、软件和激光三大技术的推动下，通信技术加快了从模拟向数字、从低速向高速、从单一语言媒体向多媒体的转变；四是计算机、通信与媒体技术的相互渗透与融合，正在将通信与信息技术的发展推向一个崭新的阶段。</p>
+        <p>以ip技术为特征的新一代公用信息网将在不断演进中迅速发展，成为下一代信息服务网的统一平台。基于该网络上的电子商务、远程教育、远程诊疗、电子政府、移动办公和家庭办公等计算机互联网的新应用不断涌现并得到大力发展。信息技术日益广泛地深入社会生产、生活的各个领域将使it产业在数字化革命大潮中，以更高的速度向前发展。</p>
+    </div>
+    <div class="card">
+        <div><h2>2022年C++编程技术行业趋势</h2><button style="font-size:15px"><i class="fa fa-bell"onclick="article++;alert('点赞成功');"></i></button></div>
+        <h5>2022 年 5 月 14日</h5>
+        <p>随着软件行业不断发展，各种编程语言百花齐放，ios、android、java等都是移动互联网时代比较流行的语言，从业者越来越多，但目前市场占有率最高的还是传统的C/C++，很多人跃跃欲试，但又对此了解不多，难免会迟疑，不知道现在学C++还能拿到年薪10万吗?就业怎么样?</p>
+        <b>值得一提的是，C++仍然广泛受到关注。</b>
+        <p>发展趋势</p>
+        <p>需要看到的是两个趋势，一个趋势是C++变得更加复杂，通过模板等有潜力的语法因素构造越来越精巧的库成为了现代C++的热点，虽然在利用库实现新的编程范式，乃至设计模式等方面很有开创意义，也确实产生了一些能够便捷开发的工具，但是更多的是把C++变得更加强大，更加复杂难懂，不得不说它正在向边缘化道路发展。</p>
+    </div>
+    <div class="card">
+        <div><h2>ASCII码讲解</h2><button style="font-size:15px"><i class="fa fa-bell"onclick="article++;alert('点赞成功');"></i></button></div>
+        <h5>2022 年 5 月 20日</h5>
+        <p>ASCII (American Standard Code for Information Interchange): 美国信息交换标准代码是基于拉丁字母的一套电脑编码系统，主要用于显示现代y英语和其他西欧语言。</p>
+        <p>它是最通用的信息交换标准，并等同于国际标准ISO/IEC 646。ASCII第一次以规范标准的类型发表是在1967年，最后一次更新则是在1986年，到目前为止共定义了128个字符。</p>
+        <p>在计算机中，所有的数据在存储和运算时都要使用二进制数表示（因为计算机用高电平和低电平分别表示1和0），例如，像a、b、c、d这样的52个字母（包括大写）以及0、1等数字还有一些常用的符号（例如*、#、@等）在计算机中存储时也要使用二进制数来表示，而具体用哪些二进制数字表示哪个符号，当然每个人都可以约定自己的一套（这就叫编码），而大家如果要想互相通信而不造成混乱，那么大家就必须使用相同的编码规则，于是美国有关的标准化组织就出台了ASCII编码，统一规定了上述常用符号用哪些二进制数来表示。美国信息交换标准代码是由美国国家标准学会(American National Standard Institute , ANSI )制定的，是一种标准的单字节字符编码方案，用于基于文本的数据。它最初是美国国家标准，供不同计算机在相互通信时用作共同遵守的西文字符编码标准，后来它被国际标准化组织（International Organization for Standardization, ISO）定为国际标准，称为ISO 646标准。适用于所有拉丁文字字母。</p>
+    </div>
+    <div class="card">
+        <div><h2>当虚实交汇——未来，懂点什么好？</h2><button style="font-size:15px"><i class="fa fa-bell"onclick="article++;alert('点赞成功');"></i></button></div>
+        <h5>2022 年 9 月 15日</h5>
+        <h3>元宇宙——开讲一个新故事</h3>
+        <p>·新世界</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;元宇宙散发着宏大故事的典型光环，人们说它与现实世界别无二致，你将在里面创造平行人生，那里也有财富、感情、事业，还能克服现实中的种种障碍，上天入地。</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;再创造意味着无限的新机会。各大科技公司纷纷进军“元宇宙”，社交网络巨头Facebook甚至直接改名为“Meta”。元宇宙彻底“出圈”，霸占了所有人的注意力——一个新的故事正在形成。</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;全球化这个故事发展到高潮，花了半个世纪的时间。如今，“元宇宙”这个全新的故事尚在酝酿之中，它究竟何时能实现，以至于是否能实现、该实现，仍是未知之数。</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;然而，各大科技公司已经纷纷投身“战局”，力争成为新故事的主导者，对元宇宙提出了五花八门的定义，并朝自定的方向飞奔。无论它们的目标是否实现，这些新方向都可能对我们未来的生活、工作产生巨大影响。面对不确定的未来，我们能做的是根据已有的知识和信息，预测哪些技能和职业将被需要，做好准备。</p>
+    </div>
+    <div class="card">
+      <div><h2>马斯克：成为世界首富的“清醒疯子”</h2><button style="font-size:15px"><i class="fa fa-bell"onclick="article++;alert('点赞成功');"></i></button></div>
+      <h5>2022 年 9 月 15日</h5>
+      <h3>成为世界首富的“清醒疯子”</h3>
+      <h3>——埃隆·马斯克</h3>
+      <h4>大家掏钱让马斯克继续“疯狂”，使用投资为未来探索更多可能。</h4>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;
+        2021年1月7日，一个叫埃隆·马斯克的人凭借1950亿美元的个人资产，登上了世界首富的位置，并在年底当选《时代周刊》年度人物。人们称他是“钢铁侠”，说他是疯子、怪咖，怀疑他来自未来。这都是因为他在干几件极端的大事儿:造火箭、把人类移民到火星、用新能源车实现火星代步、全球无死角通信、读取人的意识……和那些伟大的发明家一样，他也算是人类文明的“奇异点”，要是他成功了，那就真是给人类文明猛踩一脚油门，到时无论你愿不愿意，都得被驾着往未来狂飙。要是他失败了，作为旁观者，我们好像也没什么大损失，而且人家马斯克自己都说看得开，“钱对我没有吸引力，至少我尝试过为人类做贡献”。
+      </p>
+    </div>
+  </div>
+<div class="rightcolumn">
+    <div class="card">
+      <h3>InterspaceITX管理</h3>
+      <h4>ICFHS-陈</h4>
+      </div>
+    <div class="card">
+        <h3>联系站主</h3>
+        <div class="fakeimg">
+            <center><a>邮箱:interspaceitx@163.com</a></center>
+        </div>
+        <center><p>Ctrl+D试试</p></center>
+    </div>
+    <div class="card">
+        <marquee style="color:rgb(62, 30, 150)"direction="left">
+            Facing business and science and technology for a better future
+        </marquee>
+    </div>
+    <div class="card">
+      <h3>热门文章</h3>
+      <div class="fakeimg">
+      <p>IT行业未来趋势总结</p>
+      <p>2022年C++编程技术行业趋势</p>
+      <p>当虚实交汇——未来，懂点什么好？</p>
+      <p>马斯克：成为世界首富的“清醒疯子”</p>
+      </div>
+    </div>
+    <div class="card">
+    <h3>Time:</h3>
+    <h3 id="time1"></h3>
+    </div>
+  </div>
+</div>
+
+  <div class="card">
+    <h2>导航</h2>
+    <div class="di">
+      <a href="https://github.com">Github<i class="fa fa-github" style="font-size:36px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://wx.qq.com">Wechat<i class="fa fa-wechat" style="font-size:36px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://weibo.com">Weibo<i class="fa fa-weibo" style="font-size:36px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://www.google.cn">Chrome<i class="fa fa-chrome" style="font-size:36px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+  </div>
+<div class="footer">
+  <center><div>e-mail:daviduu@126.com</div></center>
+  <center><div>版权所有:ITX</div></center>
+</div>
+<script>
+    function mytime(){
+        var a = new Date();
+        var b = a.toLocaleTimeString();
+        var c = a.toLocaleDateString();
+        document.getElementById("time1").innerHTML = c+"&nbsp"+b;
+        }
+        setInterval(function() {mytime()},998);
+</script>
+</body>
+</html>
